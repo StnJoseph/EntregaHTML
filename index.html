@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .container-fluid {
+            height: 100%;
+        }
+        .row {
+            height: 100%;
+        }
+        .col-left {
+            text-align: center; 
+            height: 100%;
+            padding: 15px;
+            background-color: #d1c997;
+        }
+        .col-left h1 {
+            font-size: 3rem;
+        }
+        .col-right {
+            height: 100%;
+            padding: 15px;
+        }
+        .content-box {
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .image-box {
+            width: 50%;
+            text-align: center;
+            margin: 10px;
+        }
+        .image-box img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Columna de informacion -->
+            <div class="col-4 col-left">
+                <!-- Título -->
+                <h1 class="mb-3">Keith Haring</h1>
+
+                <!-- Lista de información -->
+                <ul class="list-group mb-3">
+                    <li class="list-group-item">Nació el 4 de mayo de 1958</li>
+                    <li class="list-group-item">Activista y artista estadounidense con gran influencia en la cultura del graffity neoyorquino que desarrollo la idea del "Bad Painting".</li>
+                    <li class="list-group-item">Sus obras, coloridas, sencillas y comerciales le dieron gran reconocimiento que le permitio trabajar junto a otros artista como Jean-Michael Baquiat o Andy Warhol.</li>
+                    <li class="list-group-item">Temas recurrentes en sus obras eran la muerte, enfermedad, el sexo y la guerra.</li>
+                    <li class="list-group-item">Su muerte anunciada a causa del SIDA lo convirtió en un precursor para el dialogo sobre las ETS.</li>
+                </ul>
+                <!-- Otro Título -->
+                <h1 class="mb-3">Susbribete para más:</h1>
+
+                <!-- Cajas de entrada -->
+                <div class="content-box">
+                    <input type="text" class="form-control mb-2" placeholder="Nombre y Apellido">
+                    <input type="text" class="form-control" placeholder="Correo electrónico">
+                </div>
+
+                <!-- Link -->
+                <a href="https://galeriasalamarte.com/blogs/noticias/keith-haring-obras-de-arte" target="_blank">Conoce más del artista</a>
+
+            </div>
+
+            <!-- Columna de imagenes -->
+            <div class="col-8 col-right">
+                <div class="image-row">
+
+                    <!-- Imagen 1 -->
+                    <div class="image-box">
+                        <img src="https://www.galeries-bartoux.com/wp-content/uploads/2016/06/keith.haring-portrzit-galeries-bartoux-e1679677738519-540x514.jpg">
+                        <p>Algunas de las particularidades de Haring es la naturalidad de sus obras y lo intuitivo de las mismas pues todas sus obras eran expontaneas, sin bocetos previos. Numerosas obras de él son expuestas hoy en día en Alemania, Paises Bajos, Japon, Brazil y en distintos museos estadounidencses (sin contar las pocas obras ocultas que se mantienen en las calles).</p>
+                    </div>
+
+                    <!-- Imagen 2 -->
+                    <div class="image-box">
+                        <img src="https://cdn.webshopapp.com/shops/44821/files/326344762/image.jpg">
+                        <p>WideWalls - 1987.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
